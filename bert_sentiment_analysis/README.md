@@ -1,2 +1,0 @@
-# CS317.P22
-Repo for CS317.P22
