@@ -1,15 +1,13 @@
 ## Overview
-This repository contains a BERT-based sentiment analysis model fine-tuned on the Stanford IMDB dataset, along with a FastAPI service that exposes both JSON and HTML endpoints. You can:
+Dự án này cung cấp mô hình phân tích sentiment (positive/negative) sử dụng mô hình BERT được finetune trên tập Stanford IMDB dataset. Sử dụng FASTAPI và docker để deploy service
 
-- Train & evaluate the model locally with MLflow
+- Huấn luyện và đánh giá mô hình bằng MLflow
 
-- Serve the model via FastAPI and docker
+- Serve mô hình thông qua FastAPI và Docker
 
-- Dockerize the service and launch with a single docker-compose up
+- đóng gói Docker, deploy với một lệnh `docker-compose up`
 
-All Python dependencies are pinned to specific versions to avoid breakages caused by upstream updates.
-
-## Prerequisites
+## Yêu cầu 
 - Git ≥ 2.20
 - Python 3.9.x
 - Docker ≥ 20.10
