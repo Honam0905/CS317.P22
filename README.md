@@ -24,7 +24,7 @@ Dự án này cung cấp mô hình phân tích sentiment (positive/negative) s�
    
    ```bash
    git clone https://github.com/Honam0905/CS317.P22.git
-   cd CS317.P22/bert_sentiment_analysis
+   cd CS317.P22
    ```
 3. Kéo file nhị phân
    ```bash
@@ -50,7 +50,9 @@ Dự án này cung cấp mô hình phân tích sentiment (positive/negative) s�
    uvicorn app:app --host 0.0.0.0 --port 8000
    ```
 7. Đóng gói & Deploy với Docker<br>
-
+   ```bash
+   cd CS317.P22/bert_sentiment_analysis
+   ```
    7.1. Ở thư mục gốc, build image:
    
    ```bash
