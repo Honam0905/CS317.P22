@@ -95,3 +95,5 @@ Dự án này cung cấp mô hình phân tích sentiment (positive/negative) s�
       ```json
       {"label":"positive","score":0.9876}
       ```
+10. Video Demo
+    
