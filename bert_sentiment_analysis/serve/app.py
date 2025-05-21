@@ -45,16 +45,6 @@ if not OUTPUT_DIR.exists():
     if alt.exists():
         OUTPUT_DIR = alt
 
-try:
-    subprocess.run(
-        ["git", "lfs", "pull"],
-        cwd=str(PROJECT_DIR),
-        check=True,
-        stdout=subprocess.PIPE, stderr=subprocess.PIPE
-    )
-except subprocess.CalledProcessError as e:
-    print(f"⚠️  Warning: git lfs pull failed (continuing anyway):\n{e.stderr.decode()}", 
-          file=sys.stderr)
 
 CKPT = find_best_ckpt(OUTPUT_DIR)
 
