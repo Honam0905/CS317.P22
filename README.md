@@ -96,4 +96,14 @@ Dự án này cung cấp mô hình phân tích sentiment (positive/negative) s�
       {"label":"positive","score":0.9876}
       ```
 10. Video Demo
-    
+
+<p align="center">
+  <a href="https://youtu.be/nDtXXhgrJr8" target="_blank">
+    <img
+      src="https://img.youtube.com/vi/nDtXXhgrJr8/0.jpg"
+      alt="Watch the demo"
+      width="600"
+    />
+  </a>
+</p>
+
