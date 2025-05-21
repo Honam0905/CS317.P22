@@ -49,6 +49,7 @@ Dự án này cung cấp mô hình phân tích sentiment (positive/negative) s�
    cd serve
    uvicorn app:app --host 0.0.0.0 --port 8000
    ```
+   Sau khi thành công mở các đường link ở mục 8.1
 7. Đóng gói & Deploy với Docker<br>
    ```bash
    cd CS317.P22/bert_sentiment_analysis
@@ -68,7 +69,14 @@ Dự án này cung cấp mô hình phân tích sentiment (positive/negative) s�
    ```bash
    docker ps
    ```
-8. Gọi API
+   7.4. Kiểm tra lỗi nếu có:
+
+   ```bash
+   docker logs <container-name>/<container-id>
+   ```
+
+   * Lưu ý khi chạy xong câu lệnh 7.2 khi bấm vào đường link 8.1 sẽ hiện ra lỗi phải mất một lúc thì mới kết nối được nên khi chạy xong 7.2 chờ đợi một lúc để local host nhận được tín hiệu trừ trường hợp mạng mạnh
+9. Gọi API
 
    8.1. Qua trình duyệt  
       - HTML form: http://localhost:8000/  
